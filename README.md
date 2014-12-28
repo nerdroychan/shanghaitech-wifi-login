@@ -1,8 +1,8 @@
 # ShanghaiTech Wifi Login Script
 
-## Brief Introduction
-
 A light-weight script helping you login the wifi hotspot without a web browser, written by Ruby.
+
+## Platform
 
 Best for Linux microcomputer (e.g. Raspberry Pi) and Linux/Mac PC.
 
@@ -16,7 +16,7 @@ Best for Linux microcomputer (e.g. Raspberry Pi) and Linux/Mac PC.
 
 3. Open the terminal, then enter the folder in step 1 with `cd` command.
 
-4. Run the command `ruby main.rb $USERNAME $PASSWORD`. ($USERNAME and $PASSWORD is your wifi account and the password)
+4. Run the command `ruby main.rb username password`.
 
 5. See the response, now you have connected to the wifi network.
 
