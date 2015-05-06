@@ -1,6 +1,6 @@
 # ShanghaiTech Wifi Login Script
 
-A light-weight script helping you login the wifi hotspot without a web browser, written by Ruby.
+A light-weight script helping you login the wifi hotspot without a web browser, written in Ruby.
 
 ## Platform
 
@@ -10,15 +10,15 @@ Best for Linux microcomputer (e.g. Raspberry Pi) and Linux/Mac PC.
 
 **For Linux/Mac users:**
 
-1. Connect to "ShanghaiTech" or "guest" wifi in the campus, with your device.
+1. Connect to "ShanghaiTech" or "guest" wifi in Pudong campus.
 
-2. Download the file `main.rb` and put it into a custom folder.
+2. Download the file `main.rb` and put it into a folder.
 
-3. Open the terminal, then enter the folder in step 1 with `cd` command.
+3. Open the terminal, then enter the folder where you put the program in.
 
-4. Run the command `ruby main.rb username password`.
+4. Run the command `ruby main.rb $username $password`, while $username is your username and $password is the password of your account.
 
-5. See the response, now you have connected to the wifi network.
+5. Waiting for the response, and now you have connected to the wifi network.
 
 6. You can set this script automatic with the comman `crontab`, for more information, see the wiki. (e.g. <a href="https://help.ubuntu.com/community/CronHowto" target="_blank">Ubuntu Official Wiki - Cron</a>)
 
